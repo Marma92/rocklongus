@@ -1,0 +1,29 @@
+{
+    "name": "amogus",
+    "description": "AMOGUUUUUUUUUUUUUUUS !!!!",
+    "options": [
+        {
+            "name": "add",
+            "description": "add a user",
+            "type": 2, 
+            "options": [
+                        {
+                            "name": "user",
+                            "description": "The user to add to the game",
+                            "type": 6, 
+                            "required": true
+                        }
+                    ]
+                },
+        {
+            "name": "start",
+            "description": "Start the game",
+            "type": 1
+        },
+        {
+            "name": "stop",
+            "description": "End game",
+            "type": 1
+        }
+    ]
+}
